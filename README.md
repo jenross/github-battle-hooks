@@ -10,15 +10,15 @@ I created this project while completing [Tyler McGinnis' "React Hooks" course](h
 
 `function calculateScore(followers, repos) { return followers \* 3 + getStarCount(repos); }`
 
-This project refactors the ["GitHub Battle" app](https://github.com/jenross/github-battle-react) I created while completing Tyler McGinnis' "React" fundamentals course, which employed class component architecture. After learning how to implement custom hooks and built-in Hook API's (including useState, useEffect, useContext, useReducer, useCallback, useMemo, and useRef), I removed all of the class components and replaced them with functions/hooks.
+This project refactors the ["GitHub Battle" app](https://github.com/jenross/github-battle-react) I created while completing Tyler McGinnis' "React" fundamentals course, which employed class component architecture. I was able to implement custom hooks and React's built-in Hook API's (including useState, useEffect, useContext, useReducer, useCallback, useMemo, and useRef).
 
 ## Demo
 
-Fetch popular repos
+**Fetch popular repos:**
 
 ![](popular_githubbattle.gif)
 
-Battle
+**Battle:**
 
 ![](battle_githubbattle.gif)
 
