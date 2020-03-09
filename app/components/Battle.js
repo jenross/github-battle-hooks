@@ -87,6 +87,7 @@ PlayerInput.propTypes = {
 };
 
 function PlayerPreview({ username, onReset, label }) {
+  const theme = React.useContext(ThemeContext);
   return (
     <div className="column player">
       <h3 className="player-label">{label}</h3>
